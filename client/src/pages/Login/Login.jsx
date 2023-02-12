@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Signup = () => {
+const Login = () => {
   return (
     <div className="my-20 flex mx-auto w-full">
       <img
@@ -17,16 +17,11 @@ const Signup = () => {
             className="rounded-xl h-40"
           />
         </figure>
-        <h1 className="text-center text-xl font-bold">Create an account</h1>
+        <h1 className="text-center text-xl font-bold">
+          Log in to your account
+        </h1>
+        <p className="text-center">Welcome back! Please enter your details</p>
         <div className="card-body">
-          <p>
-            Name <span className="text-red-500 text-left">*</span>{" "}
-          </p>
-          <input
-            type="text"
-            placeholder="Enter Your Name"
-            className="input input-bordered w-full max-w-xs"
-          />
           <p>
             Email <span className="text-red-500 text-left">*</span>{" "}
           </p>
@@ -54,13 +49,13 @@ const Signup = () => {
               src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
               alt="google"
             />
-            Sign up with Google
+            Sign in with Google
           </button>
         </div>
         <p className="text-center mb-5">
-          Already have an account?{" "}
-          <Link className="text-primary font-bold" to="/login">
-            Log In
+          Don't have an account?{" "}
+          <Link className="text-primary font-bold" to="/signup">
+            Sign up
           </Link>{" "}
         </p>
       </div>
@@ -68,4 +63,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Login;

@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="my-20 flex mx-auto w-full">
+    <div className="my-20 lg:flex lg:mx-auto w-full">
       <img
         src="https://i.ibb.co/PNmzYRX/diginventory.png"
-        className="lg:flex md:hidden sm:hidden"
+        className="flex md:hidden sm:hidden"
         alt="logo"
       />
-      <div className="card w-96 bg-base-100 shadow-xl flex mx-auto">
+
+      <div className="card w-96 bg-base-100 shadow-2xl flex mx-auto">
         <figure className="px-5">
           <img
             src="https://i.ibb.co/PNmzYRX/diginventory.png"

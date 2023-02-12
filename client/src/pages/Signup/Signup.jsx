@@ -6,7 +6,7 @@ const Signup = () => {
     <div className="my-20 flex mx-auto w-full">
       <img
         src="https://i.ibb.co/PNmzYRX/diginventory.png"
-        className="lg:flex md:hidden sm:hidden"
+        className="flex md:hidden sm:hidden"
         alt="logo"
       />
       <div className="card w-96 bg-base-100 shadow-xl flex mx-auto">

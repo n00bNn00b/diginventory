@@ -42,8 +42,14 @@ const Login = () => {
           <input
             type="button"
             className="btn btn-primary hover:text-base-100"
-            value="Sign Up"
+            value="Sign In"
           />
+          <p
+            className="text-primary text-right
+          "
+          >
+            <Link to="/">Forgot Password?</Link>
+          </p>
           <button className="btn bg-base-100 text-neutral hover:bg-yellow-100">
             <img
               className="h-10 w-10"
